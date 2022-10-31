@@ -73,8 +73,6 @@ public class HeapSort {
         entrada = bufer.readLine();
         t = Integer.parseInt(entrada);
         array = leerArreglo(t);
-        int inicio = 0;
-        int fin = array.length-1;
         heapSort(array);
         imprimirArreglo(array);
     }
